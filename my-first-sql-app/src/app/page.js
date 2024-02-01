@@ -1,6 +1,7 @@
-import Image from "next/image";
+import { Header } from "./Components/header/Index";
 
 export default function firstPage() {
+  <Header/>
   return (
     <div>
       <h1>
