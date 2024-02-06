@@ -1,9 +1,8 @@
-import { Header } from "./Components/header/Index";
-
+import Header from "./Components/header/Index";
 export default function firstPage() {
-  <Header/>
   return (
     <div>
+      <Header/>
       <h1>
         Welcome!!!
       </h1>
