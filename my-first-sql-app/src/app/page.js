@@ -3,6 +3,13 @@ export default function firstPage() {
   return (
     <div>
       <Header/>
+      <div className="buttons">
+      <button>Help</button>
+      <button>My Cards</button>
+      <button>My Points</button>
+      <button>Settings</button>
+      <button>About</button>
+      </div>
       <h1>
         Welcome!!!
       </h1>
