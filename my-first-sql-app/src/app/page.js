@@ -1,4 +1,5 @@
 import Header from "./Components/header/Index";
+import AllCards from "./Components/Cards/Index";
 export default function firstPage() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function firstPage() {
         Welcome!!!
       </h1>
       <p>Welcome to my welcome page. This is the first of many posts that will get me to undderstand all this better</p>
+      <AllCards/>
     </div>
   );
     
