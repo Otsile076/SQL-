@@ -1,6 +1,5 @@
 // firstPage.jsx
 import React from 'react';
-import useRouter  from 'next/router';
 import Header from "./Components/header/Index";
 import AllCards from "./Components/Cards/Index";
 import { info } from "./Components/help/Index";
