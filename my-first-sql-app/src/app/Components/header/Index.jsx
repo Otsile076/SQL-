@@ -1,6 +1,7 @@
+import './Header.css'
 export default function Header() {
     return(
-        <div>
+        <div className="head">
             <h1>
                 Swipa Fela!!!
             </h1>
