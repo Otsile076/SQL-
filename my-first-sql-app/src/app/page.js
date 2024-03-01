@@ -11,10 +11,10 @@ export default function firstPage() {
             <Header />
             <div className="buttons">
                 <button onClick={info}>Help</button>
-                <button>My Cards</button>
-                <button>My Points</button>
-                <button>Settings</button>
-                <button>About</button>
+                <button onClick={cards}>My Cards</button>
+                <button onClick={popints}>My Points</button>
+                <button onClick={settings}>Settings</button>
+                <button onClick={about}>About</button>
             </div>
             <h1>Welcome!!!</h1>
             <p>Welcome to my welcome page. This is the first of many posts that will get me to understand all this better</p>
