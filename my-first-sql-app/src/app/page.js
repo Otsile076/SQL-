@@ -11,7 +11,7 @@ export default function firstPage() {
             <Header />
             <div className="buttons">
                 <button onClick={info}>Help</button>
-                <button onClick={cards}>My Cards</button>
+                <button onClick={AllCards}>My Cards</button>
                 <button onClick={popints}>My Points</button>
                 <button onClick={settings}>Settings</button>
                 <button onClick={about}>About</button>
