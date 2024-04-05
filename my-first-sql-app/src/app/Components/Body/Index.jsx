@@ -1,4 +1,4 @@
-export default function Bod() {
+export default function Body() {
     return(
         <div className="head">
             <h1>
